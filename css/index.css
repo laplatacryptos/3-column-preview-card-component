@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&display=swap');
+/*Tipografia: font-family: 'Big Shoulders Display', sans-serif;
+font-family: 'Inter', sans-serif;*/
+
+
+*{padding: 0 ;margin: 0;box-sizing: border-box;font-size: 15px;}
+
+body{background-color: hsl(0, 0%, 95%);}
+
+section{max-width: 1200px;display: flex;margin: auto;margin-top: 225px;border-radius: 5px;}
+img{width: 90px;}
+.v1, .v2, .v3{width: 375px;padding: 40px;}
+.v1{background-color: hsl(31, 77%, 52%);border-radius: 5px 0px 0px 5px;}
+.v2{background-color: hsl(184, 100%, 22%);}
+.v3{background-color: hsl(179, 100%, 13%);border-radius: 0px 5px 5px 0px;}
+h1{font-family: 'Big Shoulders Display', sans-serif;font-weight: 700; font-size: 3.6rem;color: hsl(0, 0%, 95%);text-transform: uppercase;margin: 30px 0px;}
+p{font-family: 'Inter', sans-serif;font-weight: 400;color: hsla(0, 0%, 100%, 0.75);font-size: 1.35rem;padding: 0px 20px 0px 0px;line-height: 33px;}
+button{font-family: 'Inter', sans-serif;font-weight: 700;background-color: hsl(0, 0%, 95%);border: none;padding: 15px 35px;border-radius: 30px;border: solid 1px transparent;font-size: 1rem;font-weight: 400;margin-top: 70px}
+button:hover{cursor: pointer;border: solid 1px hsl(0, 0%, 95%);background: transparent; color: hsl(0, 0%, 95%);}
+.btnv1{color: hsl(31, 77%, 52%);}
+.btnv2{color: hsl(184, 100%, 22%);}
+.btnv3{color: hsl(179, 100%, 13%);}
+
+@media screen and (max-width: 875px){
+    html, body{width: 100%;overflow-x: hidden;}
+    section{flex-direction: column;margin: auto;}
+    
+}
